@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  go:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: go
+    image: leandrocosta91/fullcyle-docker-desafio-go
